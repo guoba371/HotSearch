@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T22:57:33+08:00",
+  "title": "Design System: Industry Topic Radar",
+  "extensions": {
+    "colorMeta": {
+      "paper": { "role": "neutral", "displayName": "Ledger Paper", "canonical": "#f3f0e8", "tonalRamp": ["oklch(15% 0.012 85)", "oklch(26% 0.012 85)", "oklch(38% 0.012 85)", "oklch(50% 0.012 85)", "oklch(62% 0.012 85)", "oklch(74% 0.012 85)", "oklch(86% 0.012 85)", "oklch(95% 0.012 85)"] },
+      "paper-deep": { "role": "neutral", "displayName": "Pressed Paper", "canonical": "#e9e4d9", "tonalRamp": ["oklch(15% 0.016 84)", "oklch(26% 0.016 84)", "oklch(38% 0.016 84)", "oklch(50% 0.016 84)", "oklch(62% 0.016 84)", "oklch(74% 0.016 84)", "oklch(86% 0.016 84)", "oklch(95% 0.016 84)"] },
+      "white": { "role": "neutral", "displayName": "Sheet White", "canonical": "#fbfaf6", "tonalRamp": ["oklch(15% 0.006 85)", "oklch(26% 0.006 85)", "oklch(38% 0.006 85)", "oklch(50% 0.006 85)", "oklch(62% 0.006 85)", "oklch(74% 0.006 85)", "oklch(86% 0.006 85)", "oklch(95% 0.006 85)"] },
+      "ink": { "role": "neutral", "displayName": "Inspection Ink", "canonical": "#20231f", "tonalRamp": ["oklch(15% 0.012 135)", "oklch(26% 0.012 135)", "oklch(38% 0.012 135)", "oklch(50% 0.012 135)", "oklch(62% 0.012 135)", "oklch(74% 0.012 135)", "oklch(86% 0.012 135)", "oklch(95% 0.012 135)"] },
+      "muted": { "role": "neutral", "displayName": "Muted Graphite", "canonical": "#6a6c64", "tonalRamp": ["oklch(15% 0.012 105)", "oklch(26% 0.012 105)", "oklch(38% 0.012 105)", "oklch(50% 0.012 105)", "oklch(62% 0.012 105)", "oklch(74% 0.012 105)", "oklch(86% 0.012 105)", "oklch(95% 0.012 105)"] },
+      "line": { "role": "neutral", "displayName": "Ledger Rule", "canonical": "#cbc6b9", "tonalRamp": ["oklch(15% 0.018 82)", "oklch(26% 0.018 82)", "oklch(38% 0.018 82)", "oklch(50% 0.018 82)", "oklch(62% 0.018 82)", "oklch(74% 0.018 82)", "oklch(86% 0.018 82)", "oklch(95% 0.018 82)"] },
+      "line-dark": { "role": "neutral", "displayName": "Dark Ledger Rule", "canonical": "#aaa596", "tonalRamp": ["oklch(15% 0.02 82)", "oklch(26% 0.02 82)", "oklch(38% 0.02 82)", "oklch(50% 0.02 82)", "oklch(62% 0.02 82)", "oklch(74% 0.02 82)", "oklch(86% 0.02 82)", "oklch(95% 0.02 82)"] },
+      "review-red": { "role": "primary", "displayName": "Review Red", "canonical": "#b43b2f", "tonalRamp": ["oklch(15% 0.12 30)", "oklch(26% 0.12 30)", "oklch(38% 0.12 30)", "oklch(50% 0.12 30)", "oklch(62% 0.12 30)", "oklch(74% 0.12 30)", "oklch(86% 0.12 30)", "oklch(95% 0.12 30)"] },
+      "review-red-dark": { "role": "primary", "displayName": "Deep Review Red", "canonical": "#8f2d25", "tonalRamp": ["oklch(15% 0.105 29)", "oklch(26% 0.105 29)", "oklch(38% 0.105 29)", "oklch(50% 0.105 29)", "oklch(62% 0.105 29)", "oklch(74% 0.105 29)", "oklch(86% 0.105 29)", "oklch(95% 0.105 29)"] },
+      "confidence-green": { "role": "secondary", "displayName": "Confidence Green", "canonical": "#2f6c50", "tonalRamp": ["oklch(15% 0.07 158)", "oklch(26% 0.07 158)", "oklch(38% 0.07 158)", "oklch(50% 0.07 158)", "oklch(62% 0.07 158)", "oklch(74% 0.07 158)", "oklch(86% 0.07 158)", "oklch(95% 0.07 158)"] },
+      "warning-amber": { "role": "secondary", "displayName": "Warning Amber", "canonical": "#8a6220", "tonalRamp": ["oklch(15% 0.075 75)", "oklch(26% 0.075 75)", "oklch(38% 0.075 75)", "oklch(50% 0.075 75)", "oklch(62% 0.075 75)", "oklch(74% 0.075 75)", "oklch(86% 0.075 75)", "oklch(95% 0.075 75)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Weekly Inspection Display", "purpose": "The weekly inspection title only." },
+      "headline": { "displayName": "Section Headline", "purpose": "Major workflow sections." },
+      "title": { "displayName": "Editorial Title", "purpose": "Opportunity titles, brand identity, and compact editorial headings." },
+      "body": { "displayName": "Operational Body", "purpose": "Task content and supporting explanations." },
+      "label": { "displayName": "Evidence Label", "purpose": "Counts, statuses, timestamps, ranks, and source facts." }
+    },
+    "shadows": [
+      { "name": "drawer-separation", "value": "14px 0 30px rgba(32,35,31,.14)", "purpose": "Separates the open mobile navigation from the workspace." },
+      { "name": "live-status-pulse", "value": "0 0 0 5px rgba(47,108,80,.12)", "purpose": "Peak ring for the active collection status." }
+    ],
+    "motion": [
+      { "name": "drawer-reveal", "value": "transform .25s ease-out", "purpose": "Slides mobile navigation into view." },
+      { "name": "live-pulse", "value": "pulse 2s ease-out infinite", "purpose": "Signals active collection without shifting layout." },
+      { "name": "saving-spin", "value": "spin .8s linear infinite", "purpose": "Shows an approval or delivery action in progress." }
+    ],
+    "breakpoints": [
+      { "name": "compact-desktop", "value": "1050px" },
+      { "name": "mobile", "value": "760px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Compact filled action for direct workflow commands and delivery.",
+      "html": "<button class=\"ds-btn-primary\">发送周报</button>",
+      "css": ".ds-btn-primary { align-items:center; background:var(--ink); border:1px solid var(--ink); border-radius:0; color:var(--white); cursor:pointer; display:inline-flex; font-family:var(--sans); font-size:12px; justify-content:center; min-height:38px; padding:0 15px; } .ds-btn-primary:hover { background:var(--accent-dark); border-color:var(--accent-dark); } .ds-btn-primary:focus-visible { outline:2px solid var(--accent); outline-offset:3px; } .ds-btn-primary:active { background:var(--accent-dark); }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Quiet outlined action for supporting commands.",
+      "html": "<button class=\"ds-btn-secondary\">编辑档案</button>",
+      "css": ".ds-btn-secondary { align-items:center; background:transparent; border:1px solid var(--ink); border-radius:0; color:var(--ink); cursor:pointer; display:inline-flex; font-family:var(--sans); font-size:12px; justify-content:center; min-height:38px; padding:0 15px; } .ds-btn-secondary:hover { background:var(--white); } .ds-btn-secondary:focus-visible { outline:2px solid var(--accent); outline-offset:3px; } .ds-btn-secondary:active { background:var(--paper-deep); }"
+    },
+    {
+      "name": "Approval Action",
+      "kind": "button",
+      "refersTo": "approval-action",
+      "description": "Review-red proofing action that becomes a green approved stamp after completion.",
+      "html": "<button class=\"ds-btn-approve\">批准</button>",
+      "css": ".ds-btn-approve { align-items:center; background:transparent; border:1px solid var(--accent); border-radius:0; color:var(--accent); cursor:pointer; display:inline-flex; font-family:var(--sans); font-size:12px; justify-content:center; min-height:38px; min-width:78px; padding:0 15px; } .ds-btn-approve:hover { background:var(--accent); color:white; } .ds-btn-approve:focus-visible { outline:2px solid var(--accent); outline-offset:3px; } .ds-btn-approve:active { background:var(--accent-dark); border-color:var(--accent-dark); }"
+    },
+    {
+      "name": "Active Navigation Item",
+      "kind": "nav",
+      "refersTo": "nav-active",
+      "description": "Square ink bar for the current operating area with a monospaced count.",
+      "html": "<a class=\"ds-nav-item\" href=\"#\"><span>本周雷达</span><b>05</b></a>",
+      "css": ".ds-nav-item { align-items:center; background:var(--ink); border-radius:0; color:var(--white); display:flex; font-family:var(--sans); font-size:13px; gap:11px; min-height:42px; padding:0 12px; text-decoration:none; width:200px; } .ds-nav-item b { font-family:var(--mono); font-size:10px; font-weight:400; margin-left:auto; } .ds-nav-item:hover { background:var(--accent-dark); } .ds-nav-item:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "custom",
+      "description": "Compact two-option view switch with an ink-filled selected state.",
+      "html": "<div class=\"ds-segmented\"><button class=\"ds-segmented-selected\">综合评分</button><button>升温值</button></div>",
+      "css": ".ds-segmented { border:1px solid var(--line-dark); display:flex; padding:2px; width:max-content; } .ds-segmented button { background:transparent; border:0; border-radius:0; color:var(--ink); cursor:pointer; font-family:var(--sans); font-size:11px; height:30px; padding:0 12px; } .ds-segmented button:hover { background:var(--paper-deep); } .ds-segmented button:focus-visible { outline:2px solid var(--accent); outline-offset:1px; } .ds-segmented .ds-segmented-selected { background:var(--ink); color:white; }"
+    },
+    {
+      "name": "Evidence Metrics Strip",
+      "kind": "card",
+      "refersTo": "evidence-panel",
+      "description": "Ruled white metric surface that presents evidence totals as recorded measurements.",
+      "html": "<dl class=\"ds-metrics\"><div><dt>机会</dt><dd>05</dd></div><div><dt>公开证据</dt><dd>27</dd></div><div><dt>来源覆盖</dt><dd>84%</dd></div></dl>",
+      "css": ".ds-metrics { background:var(--white); border:1px solid var(--line); display:grid; grid-template-columns:repeat(3,1fr); margin:0; width:min(520px,100%); } .ds-metrics div { border-left:1px solid var(--line); display:flex; flex-direction:column; justify-content:center; padding:18px; } .ds-metrics div:first-child { border-left:0; } .ds-metrics dt { color:var(--muted); font-family:var(--sans); font-size:10px; } .ds-metrics dd { color:var(--ink); font-family:var(--mono); font-size:22px; font-weight:600; margin:6px 0 0; }"
+    },
+    {
+      "name": "Opportunity Record",
+      "kind": "custom",
+      "description": "Signature ruled record combining rank, evidence label, editorial recommendation, score, and review state.",
+      "html": "<article class=\"ds-opportunity\"><span class=\"ds-rank\">01</span><div class=\"ds-evidence\">6 证据</div><div class=\"ds-copy\"><small>抖音 · 小红书 <b>↗ +34%</b></small><h3>老房翻新预算最容易漏掉的五项</h3><p>用真实增项清单拆解杭州老房预算盲区</p></div><div class=\"ds-score\"><span>综合评分</span><strong>92</strong><small>/100</small></div></article>",
+      "css": ".ds-opportunity { align-items:center; border-bottom:1px solid var(--line); border-top:1px solid var(--line-dark); color:var(--ink); display:grid; gap:20px; grid-template-columns:34px 92px minmax(220px,1fr) 86px; min-height:142px; padding:16px 0; } .ds-rank { color:var(--line-dark); font-family:var(--mono); font-size:12px; } .ds-evidence { align-items:flex-end; background:#34463d; color:white; display:flex; font-family:var(--mono); font-size:9px; height:72px; padding:6px; } .ds-copy small,.ds-copy p,.ds-score span,.ds-score small { color:var(--muted); font-family:var(--sans); font-size:10px; } .ds-copy small b { color:var(--accent); font-family:var(--mono); font-weight:400; margin-left:10px; } .ds-copy h3 { font-family:var(--serif); font-size:19px; margin:7px 0 5px; } .ds-copy p { font-size:11px; margin:0; } .ds-score { border-left:1px solid var(--line); padding-left:20px; } .ds-score span { display:block; font-size:9px; } .ds-score strong { font-family:var(--mono); font-size:29px; } .ds-score small { font-family:var(--mono); font-size:9px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Site Inspection Ledger",
+    "overview": "Industry Topic Radar feels like a field inspector's working ledger translated into a precise digital operations surface. Warm paper, near-black ink, one-pixel rules, numbered evidence photography, and tabular measurements make every recommendation feel checked, recorded, and ready for human judgment.\n\nThe system is light, dense, and low-motion. Editorial serif headings establish hierarchy; utilitarian sans-serif copy keeps operations readable; monospaced labels turn scores, evidence counts, and status data into measurements. Review red marks decisions and urgency, while confidence green is reserved for verified coverage and completed states.",
+    "keyCharacteristics": [
+      "Warm paper and off-white working surfaces rather than cool dashboard chrome.",
+      "Flat, rule-led composition with square controls and almost no decorative elevation.",
+      "Evidence appears before recommendation, and review state remains explicit.",
+      "High desktop density that preserves task order and legibility when stacked on mobile.",
+      "Photography is documentary evidence: numbered, labeled, and slightly desaturated."
+    ],
+    "rules": [
+      { "name": "The Scarce Red Rule", "body": "Review red marks a decision, a live trend, or a pending condition; it is not a general decorative accent.", "section": "colors" },
+      { "name": "The Status Is Semantic Rule", "body": "Green means verified or complete, amber means incomplete coverage, and neither is used for ornament.", "section": "colors" },
+      { "name": "The Three Voices Rule", "body": "Serif expresses judgment, sans-serif explains the work, and mono records the evidence. Do not interchange them for novelty.", "section": "typography" },
+      { "name": "The Bands, Not Cards Rule", "body": "Organize the workspace with full-width sections and ruled rows; reserve bordered surfaces for real evidence groups and controls.", "section": "layout" },
+      { "name": "The Flat Ledger Rule", "body": "Resting content surfaces do not float. Use rules and tonal contrast before considering shadow.", "section": "elevation" },
+      { "name": "The Circle Means State Rule", "body": "Circular geometry belongs to statuses and sequence markers, never to general containers or action buttons.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do put evidence, coverage, and source status before recommendations.",
+      "Do use one-pixel rules, tonal paper shifts, and stable columns to structure dense information.",
+      "Do keep approval, pending, complete, warning, and disabled states explicit in text as well as color.",
+      "Do preserve the task sequence and evidence hierarchy when responsive layouts stack.",
+      "Do use documentary images as labeled evidence, with restrained saturation and fixed crops."
+    ],
+    "donts": [
+      "Don't introduce gradients, glass effects, decorative shadows, or floating section cards.",
+      "Don't round buttons, panels, images, or navigation items; circles are reserved for status and sequence.",
+      "Don't turn Review Red or Confidence Green into broad decorative themes.",
+      "Don't use marketing-page heroes, feature pitches, or oversized display type inside this operating surface.",
+      "Don't imply approval, source completeness, or delivery readiness through color alone."
+    ]
+  }
+}
